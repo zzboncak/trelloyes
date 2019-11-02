@@ -4,4 +4,14 @@ import App from './App';
 import './index.css';
 import STORE from './store';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// let lists = STORE.lists;
+
+// let listsJSX = [];
+
+// for (let i=0; i<lists.length; i++) {
+//   let list = lists[i];
+//   let title = list.header;
+//   listsJSX.push(<List header={title} key={i}/>);
+// }
+
+ReactDOM.render(<App store={STORE}/>, document.getElementById('root'));
