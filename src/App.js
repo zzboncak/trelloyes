@@ -16,7 +16,7 @@ function App(props) {
             header = {list.header}
             cards = {list.cardIds.map(id => 
               props.store.allCards[id])}
-              />
+          />
               ))}
       </div>
     </main>
