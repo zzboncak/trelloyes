@@ -12,94 +12,12 @@ exports[`List component renders the UI as expected 1`] = `
   <div
     className="List-cards"
   >
-    <div
-      className="Card"
+    <button
+      className="List-add-button"
+      type="button"
     >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
-    <div
-      className="Card"
-    >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
-    <div
-      className="Card"
-    >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
-    <div
-      className="Card"
-    >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
-    <div
-      className="Card"
-    >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
-    <div
-      className="Card"
-    >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
-    <div
-      className="Card"
-    >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
-    <div
-      className="Card"
-    >
-      <button
-        type="button"
-      >
-        delete
-      </button>
-      <h3 />
-      <p />
-    </div>
+      + Add Random Card
+    </button>
   </div>
 </section>
 `;
