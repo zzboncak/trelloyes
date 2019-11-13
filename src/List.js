@@ -28,7 +28,7 @@ class List extends React.Component {
                         handleDelete = {this.props.handleDelete}
                     />
                 ))}
-                <button type="button" className="List-add-button">
+                <button type="button" className="List-add-button" onClick={() => this.props.newRandomCard(this.props.id)}>
                     + Add Random Card
                 </button>
             </div>

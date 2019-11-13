@@ -14,6 +14,7 @@ exports[`List component renders the UI as expected 1`] = `
   >
     <button
       className="List-add-button"
+      onClick={[Function]}
       type="button"
     >
       + Add Random Card
